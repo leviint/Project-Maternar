@@ -28,13 +28,17 @@ header{
     font-family: "Josefin Sans", sans-serif;
     font-size: larger;
     display: flex;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 1.6%;
-    gap: 50px;
+    gap: 80px;
 }
 
 .header-elements{
   display:flex;
+}
+
+.menu{
+  height: 10px;
 }
 
 a{
@@ -58,7 +62,8 @@ body{
   width: 50%;
   position: relative;
   display: inline-block;
-  margin-left: 0;
+  margin-left: 5%;
+  margin-top: 3%;
 }
 
 .mySlides {
@@ -67,8 +72,10 @@ body{
 }
 
 .mySlides img {
-  width: 100%; /* A imagem ocupará toda a largura do slideshow */
-  height: auto; /* Mantém a proporção */
+  width: 75%;
+  height: auto;
+  border-radius: 5%;
+
 }
 
 .prev, .next {
@@ -101,15 +108,20 @@ body{
 }
 
 .dot-container {
-  text-align: center;
-  margin-top: 10px; /* Espaçamento abaixo da imagem */
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  z-index: 10;
 }
 
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
