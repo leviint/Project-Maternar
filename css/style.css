@@ -13,34 +13,41 @@ header{
 
 #logo-divider{
     border: none;
-    height: 1px;
+    height: 1.5px;
     background-color: #456946;
-    margin: 0%;
+    margin-top: -1%;
 }
 
 #site-title{
     font-family: "Great Vibes", cursive;
     color: #456946;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .header-hyperlinks{
     font-family: "Josefin Sans", sans-serif;
+    font-size: larger;
     display: flex;
-    padding-inline-end: 20px;
+    margin-left: 15%;
+    margin-top: 1.6%;
+    gap: 50px;
+}
+
+.header-elements{
+  display:flex;
 }
 
 a{
-    text-decoration: none;
-    color: #456946;
+  text-decoration: none;
+  color: #456946;
 }
 
 a:hover{
-    color: #B297C9;
+  color: #B297C9;
 }
 
 body{
-    background-color: #FFF5D8;
+  background-color: #FFF5D8;
 }
 
 /* SlideShow */
@@ -48,63 +55,61 @@ body{
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 50%;
-  position: left;
+  width: 50%;
+  position: relative;
+  display: inline-block;
+  margin-left: 0;
 }
 
 .mySlides {
   display: none;
-  margin-top: 10%;
-  margin-left: 10%;
+  position: relative;
+}
+
+.mySlides img {
+  width: 100%; /* A imagem ocupará toda a largura do slideshow */
+  height: auto; /* Mantém a proporção */
 }
 
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: 60%;
-  margin-top: -22px;
+  transform: translateY(-50%);
+  width: auto;
   padding: 16px;
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+
   user-select: none;
 }
 
+.prev {
+  left: 0;
+  margin-left: 8px;
+}
+
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  right: 25%;
+  margin-right: 8px;
 }
 
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+.dot-container {
   text-align: center;
-}
-
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  margin-top: 10px; /* Espaçamento abaixo da imagem */
 }
 
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
+  margin: 0 5px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
