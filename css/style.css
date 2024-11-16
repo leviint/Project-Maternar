@@ -43,25 +43,26 @@ body{
     background-color: #FFF5D8;
 }
 
-
+/* SlideShow */
 
 * {box-sizing:border-box}
 
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+  max-width: 50%;
+  position: left;
 }
 
 .mySlides {
   display: none;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 
 .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
+  width: 60%;
   margin-top: -22px;
   padding: 16px;
   color: white;
