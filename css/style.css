@@ -58,12 +58,20 @@ a:hover{
 
 body{
   background-color: #FFF5D8;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 footer{
-  background-color: #74437D;
+  box-shadow: inset 0px 5px 5px 0px #74437D;
+  background-color: #B297C9;
   color: white;
+  text-align: right;
   margin-top: 20%;
+  width: 100%;
+  padding: 20px;
 }
 
 /* SlideShow */
@@ -80,17 +88,18 @@ footer{
 }
 
 .slideshow-container {
-  flex: 2; /* Mantém o tamanho proporcional */
-  max-width: 60%; /* Largura máxima */
-  position: relative; /* Define o contexto para posicionamento absoluto */
-  overflow: hidden; /* Evita que elementos saiam da área visível */
+  flex: 2;
+  max-width: 60%;
+  position: relative;
+  overflow: hidden;
 }
 
 .text-container {
-  flex: 1; /* Texto ocupa 1 parte */
+  flex: 1;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   color: #333;
+  text-align: justify;
 }
 
 
@@ -103,7 +112,6 @@ footer{
   width: 75%;
   height: auto;
   border-radius: 5%;
-
 }
 
 .prev, .next {
@@ -139,7 +147,7 @@ footer{
   position: absolute;
   bottom: 0px;
   left: 35%;
-  transform: translateX(-50%);
+  transform: translateX(-15%);
   display: flex;
   gap: 10px;
   justify-content: center;
