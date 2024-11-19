@@ -41,6 +41,12 @@ header{
   height: 10px;
 }
 
+#menu-button{
+  height: 25px;
+  margin-left: 450%;
+  margin-top: 100%;
+}
+
 a{
   text-decoration: none;
   color: #456946;
@@ -54,17 +60,39 @@ body{
   background-color: #FFF5D8;
 }
 
+footer{
+  background-color: #74437D;
+  color: white;
+  margin-top: 20%;
+}
+
 /* SlideShow */
 
 * {box-sizing:border-box}
 
-.slideshow-container {
-  width: 50%;
-  position: relative;
-  display: inline-block;
-  margin-left: 5%;
-  margin-top: 3%;
+.content-container {
+  display: flex;
+  align-items: center; /* Alinha verticalmente */
+  gap: 20px; /* Espaço entre slideshow e texto */
+  margin: 3% auto;
+  width: 90%; /* Ajuste geral da largura do contêiner */
+  max-width: 1200px; /* Limite de largura */
 }
+
+.slideshow-container {
+  flex: 2; /* Mantém o tamanho proporcional */
+  max-width: 60%; /* Largura máxima */
+  position: relative; /* Define o contexto para posicionamento absoluto */
+  overflow: hidden; /* Evita que elementos saiam da área visível */
+}
+
+.text-container {
+  flex: 1; /* Texto ocupa 1 parte */
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
 
 .mySlides {
   display: none;
@@ -109,8 +137,8 @@ body{
 
 .dot-container {
   position: absolute;
-  bottom: 10px;
-  left: 50%;
+  bottom: 0px;
+  left: 35%;
   transform: translateX(-50%);
   display: flex;
   gap: 10px;
@@ -141,4 +169,3 @@ body{
   from {opacity: .4}
   to {opacity: 1}
 }
-
