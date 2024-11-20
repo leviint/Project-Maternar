@@ -25,11 +25,20 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function toggleMenu(){
-  const menu = document.getElementById("menu");
-  menu.style.display = menu.style.display == "none" ? "block" : "none";
+// sidebar
+
+function toggleMenu() {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.classList.toggle('open');
 }
 
+function closeMenu() {
+  const sidebar = document.getElementById('sidebar');
+  sidebar.classList.remove('open');
+}
+
+// fade-in
+
 window.addEventListener("load", function() {
-  document.body.classList.add("loaded"); // Adiciona a classe quando a página é carregada
+  document.body.classList.add("loaded");
 });

@@ -22,7 +22,16 @@
                     <a href="">Cadastro</a>
                 </div>
                 <div class="menu">
-                    <a id="menu-button" href="#menu-button" onclick="toggleMenu()"><img id="menu-button" src="../img/menu.svg" alt="menu-button"></a>
+                    <a id="menu-button" href="#" onclick="toggleMenu()"><img id="menu-icon" src="../img/menu.svg" alt="menu-icon"></a>
+                      <div id="sidebar">
+                        <a  id="close-button" href="#" onclick="closeMenu()"><img id="close-icon" src="../img/close-icon.png" alt="close-button"></a>
+                        <ul>
+                          <li>A</li>
+                          <li>B</li>
+                          <li>C</li>
+                          <li>D</li>
+                        </ul>
+                      </div>
                 </div>    
             </div>
             <hr id="logo-divider">
@@ -58,8 +67,9 @@
         </div>
         <div class="text-container">
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae earum veniam consectetur nobis delectus hic maiores temporibus quidem.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit possimus a. Inventore, commodi ea esse accusamus voluptate iure expedita similique architecto pariatur quas autem eos porro, unde optio doloremque?
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae earum veniam consectetur nobis delectus hic maiores temporibus quidem.<br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nobis minima, fugiat optio quae molestias temporibus similique, tenetur quasi illo quis ullam voluptatibus ratione aspernatur doloribus autem culpa impedit. Error!<br>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus impedit possimus a. Inventore, commodi ea esse accusamus voluptate iure expedita similique architecto pariatur quas autem eos porro, unde optio doloremque.<br>
             </p>
         </div>
     </div>
@@ -70,9 +80,12 @@
       <a id="instagram-button" href=""><img id="instagram-button" src="../img/instagram.png" alt="instagram-button"></a>
     </div>
   
-    <footer>
-      <p>Informações de contato: (12)34567-8910</p>
-      <p>Doula Gabi Lemos</p>
+    <footer class="footer">
+      <img id="footer-logo" src="../img/purple-logo.png" alt="footer-logo">
+      <div class="footer-text">
+        <p id="p-contact">Informações de contato: (12)34567-8910</p>
+        <p id="p-name">Doula Gabi Lemos</p>
+      </div>
     </footer>
 </body>
 </html>
