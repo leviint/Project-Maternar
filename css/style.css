@@ -54,6 +54,17 @@ header{
   margin: 5%;
 }
 
+#overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+}
+
 #sidebar{
   position: fixed;
   top: 0;
@@ -64,6 +75,7 @@ header{
   color: #fff;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
   transition: right 0.3s ease;
+  z-index: 9999;
 }
 
 #sidebar ul {
@@ -83,6 +95,10 @@ header{
 
 #sidebar.open {
   right: 0;
+}
+
+#overlay.visible{
+  display: block;
 }
 
 a{
