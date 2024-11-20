@@ -64,12 +64,31 @@ body{
   overflow-x: hidden;
 }
 
+.socials-container{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+  margin-left: 95%;
+  margin-top: 5%;
+  position: fixed;
+}
+
+#whatsapp-button{
+  width: 75px;
+  margin-bottom: 2%;
+}
+
+#instagram-button{
+  width: 75px;
+}
+
 footer{
   box-shadow: inset 0px 5px 5px 0px #74437D;
   background-color: #B297C9;
   color: white;
   text-align: right;
-  margin-top: 20%;
+  margin-top: 50%;
   width: 100%;
   padding: 20px;
 }
