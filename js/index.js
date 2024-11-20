@@ -29,3 +29,7 @@ function toggleMenu(){
   const menu = document.getElementById("menu");
   menu.style.display = menu.style.display == "none" ? "block" : "none";
 }
+
+window.addEventListener("load", function() {
+  document.body.classList.add("loaded"); // Adiciona a classe quando a página é carregada
+});
