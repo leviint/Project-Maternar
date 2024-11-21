@@ -85,6 +85,11 @@ header {
   z-index: 9999;
 }
 
+#flower-bg{
+  width: 270%;
+  margin-top: -0.8vmin;
+}
+
 #sidebar ul {
   list-style: none;
   padding: 2vmin;
