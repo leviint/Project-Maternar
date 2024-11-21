@@ -189,6 +189,7 @@ footer {
   height: 12vmin;
   margin-right: 155vmin;
   margin-top: 3vmin;
+  margin-left: 2vmin;
 }
 
 /* SlideShow */
@@ -224,6 +225,10 @@ footer {
 }
 
 .text{
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.numbertext{
   font-family: "Josefin Sans", sans-serif;
 }
 
