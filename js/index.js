@@ -1,3 +1,5 @@
+// slideshow
+
 let slideIndex = 1;
 showSlides(slideIndex);
 
@@ -49,3 +51,16 @@ function closeMenu() {
 window.addEventListener("load", function() {
   document.body.classList.add("loaded");
 });
+
+// identify current page
+
+const navLinks = document.querySelectorAll('.header-hyperlinks a');
+
+const currentPage = window.location.pathname.split('/').pop();
+
+navLinks.forEach(link => {
+    if (link.getAttribute('href') === currentPage) {
+        link.classList.add('active');
+    }
+});
+

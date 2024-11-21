@@ -33,6 +33,13 @@ header {
   gap: 10vmin;
 }
 
+.header-hyperlinks a.active{
+  color: #B297C9;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
 .header-elements {
   display: flex;
 }
@@ -183,7 +190,7 @@ footer {
   display: flex;
   align-items: center;
   gap: 1vmin;
-  margin: 3vmin auto;
+  margin: 4vmin auto;
   width: 90%;
   max-width: 1500px;
 }
