@@ -1,57 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Italiana&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-header{
-    background-color: #FFF5D8;
+header {
+  background-color: #FFF5D8;
 }
 
-#logo{
-    width: 100px;
-    padding-top: 8px;
-    float: left;
+#logo {
+  width: 13vmin;
+  padding-top: 1vmin;
+  float: left;
 }
 
-#logo-divider{
-    border: none;
-    height: 1.5px;
-    background-color: #456946;
-    margin-top: -1%;
+#logo-divider {
+  border: none;
+  height: 0.2vmin;
+  background-color: #456946;
+  margin-top: -0.5vmin;
 }
 
-#site-title{
-    font-family: "Great Vibes", cursive;
-    color: #456946;
-    margin-left: 20px;
+#site-title {
+  font-family: "Great Vibes", cursive;
+  color: #456946;
+  margin-left: 2vmin;
 }
 
-.header-hyperlinks{
-    font-family: "Josefin Sans", sans-serif;
-    font-size: larger;
-    display: flex;
-    margin-left: 20%;
-    margin-top: 1.6%;
-    gap: 80px;
+.header-hyperlinks {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2vmin;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3vmin;
+  gap: 10vmin;
 }
 
-.header-elements{
-  display:flex;
+.header-elements {
+  display: flex;
 }
 
-.menu{
-  height: 10px;
+.menu {
+  height: 1vmin;
 }
 
-#menu-icon{
-  height: 25px;
-  margin-left: 450%;
-  margin-top: 100%;
+#menu-icon {
+  height: 3vmin;
+  margin-left: 10vmin;
+  margin-top: 2.5vmin;
 }
 
-#close-icon{
-  font-size: 24px;
-  width: 30px;
-  height: 30px;
-  margin: 5%;
+#close-icon {
+  font-size: 2vmin;
+  width: 2.5vmin;
+  height: 2.5vmin;
+  margin: 1vmin;
 }
 
 #overlay {
@@ -65,11 +65,11 @@ header{
   z-index: 9998;
 }
 
-#sidebar{
+#sidebar {
   position: fixed;
   top: 0;
-  right: -250px;
-  width: 250px;
+  right: -30vmin;
+  width: 30vmin;
   height: 100%;
   background: #CDD8B0;
   color: #fff;
@@ -80,37 +80,37 @@ header{
 
 #sidebar ul {
   list-style: none;
-  padding: 20px;
+  padding: 2vmin;
 }
 
 #sidebar ul li {
-  margin: 20px 0;
+  margin: 2vmin 0;
 }
 
 #sidebar ul li a {
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 2vmin;
 }
 
 #sidebar.open {
   right: 0;
 }
 
-#overlay.visible{
+#overlay.visible {
   display: block;
 }
 
-a{
+a {
   text-decoration: none;
   color: #456946;
 }
 
-a:hover{
+a:hover {
   color: #B297C9;
 }
 
-body{
+body {
   background-color: #FFF5D8;
   padding: 0;
   margin: 0;
@@ -120,59 +120,63 @@ body{
   transition: opacity 1.5s ease-in-out;
 }
 
-body.loaded{
+body.loaded {
   opacity: 1;
 }
 
-.socials-container{
+.socials-container {
   position: fixed;
   text-align: right;
   display: flex;
   flex-direction: column;
-  margin-left: 1%;
+  margin-left: 2vmin;
 }
 
-#whatsapp-button, #instagram-button{
-  width: 75px;
-  margin-bottom: 2%;
+#whatsapp-button, #instagram-button {
+  width: 6vmin;
+  margin-bottom: 0.5vmin;
 }
 
-footer{
-  box-shadow: inset 0px 5px 5px 0px #74437D;
+footer {
+  box-shadow: inset 0px 0.5vmin 0.5vmin 0px #74437D;
   background-color: #B297C9;
   color: white;
   text-align: right;
-  margin-top: 40%;
+  margin-top: 20%;
   width: 100%;
-  padding: 20px;
+  padding: 3vmin;
   display: flex;
 }
 
-#p-contact{
+#p-contact {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 100%;
+  font-size: 1.5vmin;
+  text-align: right;
 }
 
-#p-name{
+#p-name {
   font-family: "Great Vibes", cursive;
-  font-size: 200%;
+  font-size: 3vmin;
+  text-align: right;
 }
 
-#footer-logo{
-  width: 7%;
-  height: 7%;
-  margin-right: 80%;
+#footer-logo {
+  width: 15vmin;
+  height: 15vmin;
+  margin-right: 150vmin;
 }
 
 /* SlideShow */
 
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 .content-container {
   display: flex;
   align-items: center;
-  gap: 5px;
-  margin: 3% auto;
+  gap: 1vmin;
+  margin: 3vmin auto;
   width: 90%;
   max-width: 1500px;
 }
@@ -187,12 +191,11 @@ footer{
 .text-container {
   flex: 1;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 20px;
+  font-size: 2vmin;
   color: #333;
   text-align: justify;
-  margin-left: -10%;
+  margin-left: -10vmin;
 }
-
 
 .mySlides {
   display: none;
@@ -211,23 +214,22 @@ footer{
   top: 50%;
   transform: translateY(-50%);
   width: auto;
-  padding: 16px;
+  padding: 1.5vmin;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.8vmin;
   background-color: rgba(0, 0, 0, 0.5);
-
   user-select: none;
 }
 
 .prev {
   left: 0;
-  margin-left: 8px;
+  margin-left: 1vmin;
 }
 
 .next {
-  right: 25%;
-  margin-right: 8px;
+  right: 0;
+  margin-right: 23vmin;
 }
 
 .prev:hover, .next:hover {
@@ -236,19 +238,19 @@ footer{
 
 .dot-container {
   position: absolute;
-  bottom: 0px;
+  bottom: 0vmin;
   left: 35%;
   transform: translateX(-15%);
   display: flex;
-  gap: 10px;
+  gap: 1vmin;
   justify-content: center;
   z-index: 10;
 }
 
 .dot {
   cursor: pointer;
-  height: 15px;
-  width: 15px;
+  height: 1.5vmin;
+  width: 1.5vmin;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -265,6 +267,10 @@ footer{
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
 }
