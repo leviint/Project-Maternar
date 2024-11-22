@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/index.js" defer></script>
+    <title>Doula Gabi Lemos</title>
+</head>
+<body>
+    
+    <header>
+        <div class="logo-header">
+            <img src="../img/light-logo.png" alt="logo" id="logo">
+            <div class="header-elements">
+                <h1 id="site-title">Doula Gabi Lemos</h1>
+                <div class="header-hyperlinks">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">Qual a função da doula?</a>
+                    <a href="meet.html">Venha me conhecer</a>
+                    <a href="contact.html">Entre em contato comigo</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="register.html">Cadastro</a>
+                </div>
+                <div class="menu">
+                    <a id="menu-button" href="#" onclick="toggleMenu()"><img id="menu-icon" src="../img/menu.png" alt="menu-icon"></a>
+
+                    <div id="overlay"></div>
+
+                      <div id="sidebar">
+                        <a  id="close-button" href="#" onclick="closeMenu()"><img id="close-icon" src="../img/close-icon.png" alt="close-button"></a>
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">Qual a função da doula?</a></li>
+                          <li><a href="meet.html">Venha me conhecer</a></li>
+                          <li><a href="contact.html">Contato</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="appointment.html">Consulta de cortesia</a></li>
+                          <li><a href="register.html">Cadastro</a></li>
+                        </ul>
+                        <hr>
+                        <img id="flower-bg" src="../img/flower-bg.png" alt="flower-bg">
+                      </div>
+                </div>    
+            </div>
+            <hr id="logo-divider">
+        </div>
+    </header>
+
+    <main>
+      <!-- SlideShow -->
+      <div class="content-container">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="../img/gestante1.jpg">
+                <div class="text">placeholder 1</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="../img/gestante2.jpg">
+                <div class="text">placeholder 2</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../img/gestante3.jpg">
+                <div class="text">placeholder 3</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <div class="dot-container">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <div class="text-container">
+            <p>
+              Sejam bem-vindos ao meu site! Sou a Gabriela, mas todos me chamam de Gabi! Trabalho como doula e consultora
+              de amamentação, além de ser apaixonada pelo universo da gestação e da maternidade! <br><br> Aqui no meu site divulgarei
+              informações importantes acerca de todas as temáticas que fazem parte da gestação, como pré-natal, tipos de parto, puerpério, violência obstétrica, amamentação, maternidade e muito mais! Tudo com embasamento científico e muito carinho!
+            </p>
+        </div>
+    </div>
+    </main>
+
+    <div class="socials-container">
+      <a id="whatsapp-button" href=""><img id="whatsapp-button" src="../img/whatsapp.png" alt="whatsapp-button"></a>
+      <a id="instagram-button" href="https://www.instagram.com/doula_gabilemos/" target="_blank"><img id="instagram-button" src="../img/instagram.png" alt="instagram-button"></a>
+    </div>
+  
+
+    <footer class="footer">
+      <div class="footer-section">
+        <img id="footer-logo" src="../img/purple-logo.png" alt="footer-logo">
+      </div>
+      <div class="footer-section">
+        <div class="footer-text">
+          <p id="p-name">Doula Gabi Lemos</p>
+          <p id="p-contact">Informações de contato:<br>(12)34567-8910<br>@doula_gabilemos</p>
+        </div>
+      </div>
+      <div class="footer-section">
+        
+      </div>
+    </footer>
+</body>
+</html>
