@@ -16,7 +16,13 @@ fetch(jsonPath)
             const post = posts.find(p => p.id == postId);
             if (post) { // Foco em um único post
                 postContainer.innerHTML = `
-                    <h1>${post.title}</h1>
+                    <style>
+                        #post-container{
+                            display: block;
+                            margin-left: 5%;
+                        }
+                    </style>
+                    <h2>${post.title}</h2>
                     <p class="author">Por ${post.author} em ${post.date}</p>
                     <p>${post.content}</p>
                     <p><strong>Tags:</strong> ${post.tags.join(", ")}</p>

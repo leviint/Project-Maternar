@@ -1,6 +1,10 @@
-h1{
+h1, h2{
     font-family: "Josefin Sans", sans-serif;
     color: #456946;
+}
+
+p{
+    font-family: "Josefin Sans", sans-serif;
 }
 
 .post{
