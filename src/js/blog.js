@@ -14,7 +14,7 @@ fetch(jsonPath)
     .then(posts => {
         if (postId) {
             const post = posts.find(p => p.id == postId);
-            if (post) {
+            if (post) { // Foco em um único post
                 postContainer.innerHTML = `
                     <h1>${post.title}</h1>
                     <p class="author">Por ${post.author} em ${post.date}</p>
@@ -25,7 +25,7 @@ fetch(jsonPath)
                 postContainer.innerHTML = `<p>Postagem não encontrada.</p>`;
             }
         } else {
-            posts.forEach(post => {
+            posts.forEach(post => { // Lista de posts na página central do blog
                 const postElement = document.createElement("div");
                 postElement.classList.add("post");
                 postElement.innerHTML = `
