@@ -1,0 +1,81 @@
+[
+    {
+        "id": 1,
+        "title": "Parto normal dói?",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["parto", "dor"]
+    },
+
+    {
+        "id": 2,
+        "title": "Laceração e episiotomia",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["laceração", "dor", "parto", "episiotomia"]
+    },
+
+    {
+        "id": 3,
+        "title": "Indução e cesárea",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["cesarea", "parto"]
+    },
+
+    {
+        "id": 4,
+        "title": "O que é cesárea? Riscos, recuperação e indicações reais",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["cesarea", "parto"]
+    },
+
+    {
+        "id": 5,
+        "title": "Trabalho de parto",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["parto"]
+    },
+
+    {
+        "id": 6,
+        "title": "Puerpério",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["puerperio", "parto", "saude"]
+    },
+
+    {
+        "id": 7,
+        "title": "Amamentação",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["amamentacao", "bebe"]
+    },
+
+    {
+        "id": 8,
+        "title": "O que é exterogestação?",
+        "thumbnail": "",
+        "author": "Gabriela Lemos",
+        "date": "2024-11-23",
+        "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
+        "tags": ["exterogestacao"]
+    }
+]
