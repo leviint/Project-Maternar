@@ -29,6 +29,7 @@ fetch(jsonPath)
                 const postElement = document.createElement("div");
                 postElement.classList.add("post");
                 postElement.innerHTML = `
+                    <img src="${post.thumbnail}">
                     <h2><a href="?id=${post.id}">${post.title}</a></h2>
                     <p class="author">Por ${post.author} em ${post.date}</p>
                     <p>${post.content.substring(0, 100)}...</p>
