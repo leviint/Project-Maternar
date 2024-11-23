@@ -16,6 +16,7 @@ fetch(jsonPath)
         if (postId) {
             const post = posts.find(p => p.id == postId);
             if (post) { // Foco em um único post
+                const thumbnailPath = `../img/thumbnails/${post.id}.png`;
                 postContainer.innerHTML = `
                     <style>
                         #post-container{
@@ -25,6 +26,7 @@ fetch(jsonPath)
                     </style>
                     <h2>${post.title}</h2>
                     <p class="author">Por ${post.author} em ${post.date}</p>
+                    <img class="thumbnail" src="${thumbnailPath}" alt="Thumbnail ${post.title}">
                     <p>${post.content}</p>
                     <p><strong>Tags:</strong> ${post.tags.join(", ")}</p>
                 `;
@@ -37,7 +39,7 @@ fetch(jsonPath)
                 const postElement = document.createElement("div");
                 postElement.classList.add("post");
                 postElement.innerHTML = `
-                    <img src="${thumbnailPath}" alt="Thumbnail ${post.title}">
+                    <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
                     <h2><a href="?id=${post.id}">${post.title}</a></h2>
                     <p class="author">Por ${post.author} em ${post.date}</p>
                     <p>${post.content.substring(0, 100)}...</p>
