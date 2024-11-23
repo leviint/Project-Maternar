@@ -38,21 +38,7 @@ fetch(jsonPath)
                             <p class="post-text">${post.content}</p>
                         </div>
 
-                        <div class="grid-side">
-                            <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
-                            <h2><a href="?id=${post.id}">${post.title}</a></h2>
-                            <p class="author">Por ${post.author} em ${post.date}</p>
-                        </div>
-                        <div class="grid-side">
-                            <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
-                            <h2><a href="?id=${post.id}">${post.title}</a></h2>
-                            <p class="author">Por ${post.author} em ${post.date}</p>
-                        </div>
-                        <div class="grid-side">
-                            <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
-                            <h2><a href="?id=${post.id}">${post.title}</a></h2>
-                            <p class="author">Por ${post.author} em ${post.date}</p>
-                        </div>
+                        <div class="grid-side-container"></div>
 
                     </div>
                 `;
@@ -84,3 +70,37 @@ fetch(jsonPath)
         console.error("Erro ao processar o JSON:", error);
         postContainer.innerHTML = `<p>Erro ao carregar os posts.</p>`;
     });
+
+
+    async function loadPosts() {
+        try {
+            const response = await fetch(jsonPath);
+            if (!response.ok) throw new Error("Erro ao carregar os posts.");
+    
+            const posts = await response.json();
+    
+            const sortedPosts = posts.sort((a, b) => b.id - a.id);
+    
+            const recentPosts = sortedPosts.slice(0, 3);
+    
+            const gridSideContainer = document.querySelector('.grid-side-container');
+    
+            recentPosts.forEach(post => {
+                const thumbnailPath = `../img/thumbnails/${post.id}.png`;
+                const postHTML = `
+                    <div class="grid-side">
+                        <a href="?id=${post.id}">
+                            <img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}">
+                        </a>
+                        <h2><a href="?id=${post.id}">${post.title}</a></h2>
+                        <p class="author">Por ${post.author} em ${post.date}</p>
+                    </div>
+                `;
+                gridSideContainer.innerHTML += postHTML;
+            });
+        } catch (error) {
+            console.error("Erro ao carregar os posts:", error);
+        }
+    }
+
+    loadPosts();
