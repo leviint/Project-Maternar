@@ -23,12 +23,41 @@ fetch(jsonPath)
                             display: block;
                             margin-left: 5%;
                         }
+
+                        .grid-side img{
+                            width: 400px;
+                            height: 200px;
+                        }
                     </style>
-                    <h2>${post.title}</h2>
-                    <p class="author">Por ${post.author} em ${post.date}</p>
-                    <img class="thumbnail" src="${thumbnailPath}" alt="Thumbnail ${post.title}">
-                    <p>${post.content}</p>
-                    <p><strong>Tags:</strong> ${post.tags.join(", ")}</p>
+                    <div id=grid-container>
+                        <div class="grid-post">
+                            <h2>${post.title}</h2>
+                            <p class="author">Por ${post.author} em ${post.date}</p>
+                            <img class="thumbnail" src="${thumbnailPath}" alt="Thumbnail ${post.title}">
+                            <p><strong>Tags:</strong> ${post.tags.join(", ")}</p>
+                            <p class="post-text">${post.content}</p>
+                        </div>
+
+                        <div class="grid-side">
+                            <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
+                            <h2><a href="?id=${post.id}">${post.title}</a></h2>
+                            <p class="author">Por ${post.author} em ${post.date}</p>
+                            <p>${post.content.substring(0, 100)}...</p>
+                        </div>
+                        <div class="grid-side">
+                            <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
+                            <h2><a href="?id=${post.id}">${post.title}</a></h2>
+                            <p class="author">Por ${post.author} em ${post.date}</p>
+                            <p>${post.content.substring(0, 100)}...</p>
+                        </div>
+                        <div class="grid-side">
+                            <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
+                            <h2><a href="?id=${post.id}">${post.title}</a></h2>
+                            <p class="author">Por ${post.author} em ${post.date}</p>
+                            <p>${post.content.substring(0, 100)}...</p>
+                        </div>
+
+                    </div>
                 `;
             } else {
                 postContainer.innerHTML = `<p>Postagem não encontrada.</p>`;
@@ -39,6 +68,12 @@ fetch(jsonPath)
                 const postElement = document.createElement("div");
                 postElement.classList.add("post");
                 postElement.innerHTML = `
+                <style>
+                    #post-container{
+                        display: grid;
+                        grid-template-columns: repeat(4, 1fr);
+                    }
+                </style>
                     <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
                     <h2><a href="?id=${post.id}">${post.title}</a></h2>
                     <p class="author">Por ${post.author} em ${post.date}</p>
