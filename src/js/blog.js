@@ -21,7 +21,7 @@ fetch(jsonPath)
                     <style>
                         #post-container{
                             display: block;
-                            margin-left: 10vmin;
+                            margin-left: 5%;
                         }
 
                         .grid-side img{

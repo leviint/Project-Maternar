@@ -28,7 +28,7 @@ p{
 }
 
 .post p, h2{
-    margin-right: 2vmin;
+    margin-right: 10%;
 }
 
 #post-container{
@@ -73,7 +73,7 @@ p{
 }
 
 .grid-side{
-    margin-left: 30vmin;
+    margin-left: 40%;
 }
 
 .grid-side1{
