@@ -68,6 +68,10 @@ p{
     grid-area: Post;
 }
 
+.grid-post h2{
+    font-size: 5vmin;
+}
+
 .grid-side{
     margin-left: 40%;
 }
