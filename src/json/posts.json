@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Parto normal dói?",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "title": "Laceração e episiotomia",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
@@ -22,7 +22,7 @@
     {
         "id": 3,
         "title": "Indução e cesárea",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
@@ -32,7 +32,7 @@
     {
         "id": 4,
         "title": "O que é cesárea? Riscos, recuperação e indicações reais",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
@@ -42,7 +42,7 @@
     {
         "id": 5,
         "title": "Trabalho de parto",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
@@ -52,7 +52,7 @@
     {
         "id": 6,
         "title": "Puerpério",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
@@ -62,7 +62,7 @@
     {
         "id": 7,
         "title": "Amamentação",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
@@ -72,7 +72,7 @@
     {
         "id": 8,
         "title": "O que é exterogestação?",
-        "thumbnail": "../img/thumbnails/placeholder.jpg",
+        "thumbnail": "",
         "author": "Gabriela Lemos",
         "date": "2024-11-23",
         "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro rem ab earum saepe praesentium voluptatem sequi, laudantium ducimus officia, facere ut deleniti, eum in cum nobis doloremque. Quae, laudantium ut.",
