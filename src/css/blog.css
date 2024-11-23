@@ -68,6 +68,10 @@ p{
     grid-area: Post;
 }
 
+.grid-side{
+    margin-left: 40%;
+}
+
 .grid-side1{
     grid-area: Side;
 }

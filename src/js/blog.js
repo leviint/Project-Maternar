@@ -25,8 +25,8 @@ fetch(jsonPath)
                         }
 
                         .grid-side img{
-                            width: 400px;
-                            height: 200px;
+                            width: 300px;
+                            height: 150px;
                         }
                     </style>
                     <div id=grid-container>
@@ -42,19 +42,16 @@ fetch(jsonPath)
                             <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
                             <h2><a href="?id=${post.id}">${post.title}</a></h2>
                             <p class="author">Por ${post.author} em ${post.date}</p>
-                            <p>${post.content.substring(0, 100)}...</p>
                         </div>
                         <div class="grid-side">
                             <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
                             <h2><a href="?id=${post.id}">${post.title}</a></h2>
                             <p class="author">Por ${post.author} em ${post.date}</p>
-                            <p>${post.content.substring(0, 100)}...</p>
                         </div>
                         <div class="grid-side">
                             <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
                             <h2><a href="?id=${post.id}">${post.title}</a></h2>
                             <p class="author">Por ${post.author} em ${post.date}</p>
-                            <p>${post.content.substring(0, 100)}...</p>
                         </div>
 
                     </div>
