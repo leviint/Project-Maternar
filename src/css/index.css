@@ -117,11 +117,12 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   width: 75%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .card h2 {
   color: #456946;
-  font-size: 1.8rem;
+  font-size: 200%;
   margin-bottom: 15px;
 }
 
@@ -150,6 +151,7 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 button:hover {
@@ -158,4 +160,13 @@ button:hover {
 
 input[type="range"] {
   width: 150px;
+}
+
+.meet-section{
+  margin-left: 20vmin;
+}
+
+#meet{
+  font-family: "Josefin Sans", sans-serif;
+  color: #456946;
 }
