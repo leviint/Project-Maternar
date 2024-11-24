@@ -1,0 +1,45 @@
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.form-container h1 {
+    font-family: "Great Vibes", cursive;
+    color: #456946;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    color: #456946;
+}
+.form-group input, .form-group textarea, .form-group button {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Josefin Sans", sans-serif;
+}
+.form-group textarea {
+    resize: none;
+}
+.form-group button {
+    background-color: #B297C9;
+    color: #fff;
+    border: none;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #74437D;
+}

@@ -55,6 +55,7 @@ fetch(jsonPath)
                     #post-container{
                         display: grid;
                         grid-template-columns: repeat(4, 1fr);
+                        margin-left: -4vmin;
                     }
                 </style>
                     <a href="?id=${post.id}"><img class="img-zoom" src="${thumbnailPath}" alt="Thumbnail ${post.title}"></a>
