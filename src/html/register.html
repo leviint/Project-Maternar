@@ -63,13 +63,16 @@
                 <input type="email" id="email" name="email" placeholder="Digite seu e-mail..." required>
             </div>
             <div class="form-group">
-                <label for="password">Senha:</label>
-                <input type="password" id="password" name="password" placeholder="Digite sua senha..." required>
-            </div>
-            <div class="form-group">
                 <label for="message">Mensagem:</label>
                 <textarea id="message" name="message" rows="4" placeholder="Digite sua mensagem..."></textarea>
             </div>
+            <div class="switch-container">
+              <label for="notifications"><p>Gostaria de receber notificações de novas postagens no blog via Email?</p></label>
+              <label class="switch">
+                  <input type="checkbox" id="notifications" name="notifications">
+                  <span class="slider"></span>
+              </label>
+          </div>
             <div class="form-group">
                 <button type="submit">Enviar</button>
                 <button type="reset">Redefinir</button>
