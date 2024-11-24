@@ -1,0 +1,30 @@
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+main h2{
+    color: #456946;
+    font-size: 200%;
+}
+
+p{
+    font-size: 125%;
+}
+
+li{
+    font-size: 125%;
+}
+
+
+.about{
+    margin-right: 50vmin;
+}
+
+.about p{
+    text-align: justify;
+}
+
