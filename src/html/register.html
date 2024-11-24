@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="icon" href="">
+    <script src="../js/register.js" defer></script>
+    <script src="../js/global.js" defer></script>
+    <title>Doula Gabi Lemos</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo-header">
+            <img src="../img/light-logo.png" alt="logo" id="logo">
+            <div class="header-elements">
+                <h1 id="site-title">Doula Gabi Lemos</h1>
+                <div class="header-hyperlinks">
+                    <a href="index.html">Home</a>
+                    <a href="meet.html">Venha me conhecer</a>
+                    <a href="about.html">Qual a função da doula?</a>
+                    <a href="contact.html">Entre em contato comigo</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="register.html">Cadastro</a>
+                </div>
+                <div class="menu">
+                    <a id="menu-button" href="#" onclick="toggleMenu()"><img id="menu-icon" src="../img/menu.png" alt="menu-icon"></a>
+
+                    <div id="overlay"></div>
+
+                      <div id="sidebar">
+                        <a  id="close-button" href="#" onclick="closeMenu()"><img id="close-icon" src="../img/close-icon.png" alt="close-button"></a>
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">Qual a função da doula?</a></li>
+                          <li><a href="meet.html">Venha me conhecer</a></li>
+                          <li><a href="contact.html">Contato</a></li>
+                          <li><a href="blog.html">Blog</a></li>
+                          <li><a href="appointment.html">Consulta de cortesia</a></li>
+                          <li><a href="register.html">Cadastro</a></li>
+                        </ul>
+                        <hr>
+                        <img id="flower-bg" src="../img/flower-bg.png" alt="flower-bg">
+                      </div>
+                </div>    
+            </div>
+            <hr id="logo-divider">
+        </div>
+    </header>
+
+    <main>
+      <div class="form-container">
+        <h1>Cadastro</h1>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu nome..." required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail..." required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Digite sua mensagem..."></textarea>
+            </div>
+            <div class="switch-container">
+              <label for="notifications"><p>Gostaria de receber notificações de novas postagens no blog via Email?</p></label>
+              <label class="switch">
+                  <input type="checkbox" id="notifications" name="notifications">
+                  <span class="slider"></span>
+              </label>
+          </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+                <button type="reset">Redefinir</button>
+            </div>
+        </form>
+    </div>
+    </main>
+
+    <div id="success-modal">
+      <div class="modal-content">
+          <h2>Obrigada!</h2>
+          <p>Seu cadastro foi enviado com sucesso.</p>
+          <button id="close-modal">Fechar</button>
+      </div>
+    </div>
+    
+    <footer class="footer">
+        <div class="footer-section">
+          <img id="footer-logo" src="../img/purple-logo.png" alt="footer-logo">
+        </div>
+        <div class="footer-section">
+          <div class="footer-text">
+            <p id="p-name">Doula Gabi Lemos</p>
+            <p id="p-contact">Informações de contato:<br>(12)34567-8910<br>@doula_gabilemos</p>
+          </div>
+        </div>
+        <div class="footer-section">
+          
+        </div>
+      </footer>
+
+</body>
+</html>
