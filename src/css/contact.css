@@ -1,0 +1,26 @@
+main{
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 10vmin;
+}
+
+h1, h3, strong{
+    color: #456946;
+}
+
+h1{
+    font-size: 200%;
+}
+
+p{
+    font-size: 125%;
+}
+
+.grid-container{
+    display: flex;
+    align-items: center;
+    gap: 1vmin;
+    margin: 10vmin auto;
+    width: 90%;
+    max-width: 1500px;
+}
+
