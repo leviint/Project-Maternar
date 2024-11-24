@@ -1,7 +1,6 @@
 main{
     font-family: "Josefin Sans", sans-serif;
     margin-left: 10vmin;
-    margin-right: 50%;
 }
 
 h1, h3, strong{
@@ -14,5 +13,14 @@ h1{
 
 p{
     font-size: 125%;
+}
+
+.grid-container{
+    display: flex;
+    align-items: center;
+    gap: 1vmin;
+    margin: 10vmin auto;
+    width: 90%;
+    max-width: 1500px;
 }
 
