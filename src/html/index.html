@@ -19,7 +19,7 @@
                 <h1 id="site-title">Doula Gabi Lemos</h1>
                 <div class="header-hyperlinks">
                     <a href="index.html">Home</a>
-                    <a href="meet.html">Venha me conhecer</a>
+                    <a href="index.html#meet">Venha me conhecer</a>
                     <a href="about.html">Qual a função da doula?</a>
                     <a href="contact.html">Entre em contato comigo</a>
                     <a href="blog.html">Blog</a>
@@ -35,10 +35,9 @@
                         <ul>
                           <li><a href="index.html">Home</a></li>
                           <li><a href="about.html">Qual a função da doula?</a></li>
-                          <li><a href="meet.html">Venha me conhecer</a></li>
+                          <li><a href="index.html#meet">Venha me conhecer</a></li>
                           <li><a href="contact.html">Contato</a></li>
                           <li><a href="blog.html">Blog</a></li>
-                          <li><a href="appointment.html">Consulta de cortesia</a></li>
                           <li><a href="register.html">Cadastro</a></li>
                         </ul>
                         <hr>
@@ -92,6 +91,27 @@
         </div>
     </div>
     </main>
+
+    <section class="meet-section">
+      <div>
+        <h1 id="meet">Venha me conhecer</h1>
+        <div class="card">
+          <div class="video-container">
+              <video id="video" controls>
+                  <source src="../vid/video.mp4" type="video/mp4">
+                  Seu navegador não suporta este formato de vídeo.
+              </video>
+          </div>
+  
+          <div class="media-controls">
+              <button onclick="playPause()">Play/Pause</button>
+              <button onclick="restartVideo()">Reiniciar</button>
+              <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="1" onchange="adjustVolume(this)">
+              <label for="volumeControl">Volume</label>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <div class="socials-container">
       <a id="whatsapp-button" href=""><img id="whatsapp-button" src="../img/whatsapp.png" alt="whatsapp-button"></a>

@@ -110,3 +110,63 @@
     opacity: 1;
   }
 }
+
+.card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 75%;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.card h2 {
+  color: #456946;
+  font-size: 200%;
+  margin-bottom: 15px;
+}
+
+.video-container {
+  text-align: center;
+}
+
+video {
+  max-width: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.media-controls {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-left: 25%;
+}
+
+button {
+  background-color: #B297C9;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+button:hover {
+  background-color: #74437D;
+}
+
+input[type="range"] {
+  width: 150px;
+}
+
+.meet-section{
+  margin-left: 20vmin;
+}
+
+#meet{
+  font-family: "Josefin Sans", sans-serif;
+  color: #456946;
+}
