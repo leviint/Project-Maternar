@@ -1,0 +1,18 @@
+main{
+    font-family: "Josefin Sans", sans-serif;
+    margin-left: 10vmin;
+    margin-right: 50%;
+}
+
+h1, h3, strong{
+    color: #456946;
+}
+
+h1{
+    font-size: 200%;
+}
+
+p{
+    font-size: 125%;
+}
+
